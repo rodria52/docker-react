@@ -20,4 +20,4 @@ services:
             - .:/app
         command: ["npm","run","test"]
         stdin_open: true # docker run -i
-        tty: true        # docker run -t
+        #tty: true        # docker run -t
